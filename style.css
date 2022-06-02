@@ -14,3 +14,17 @@ body {
   min-height: 100vh;
   background: #222;
 }
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card {
+  position: relative;
+  width: 220px;
+  height: 250px;
+  background: #2a2a2a;
+}
