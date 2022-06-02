@@ -20,6 +20,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .container .card {
@@ -27,4 +29,13 @@ body {
   width: 220px;
   height: 250px;
   background: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card .percent {
+  position: relative;
+  width: 150px;
+  height: 150px;
 }
